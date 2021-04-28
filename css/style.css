@@ -118,16 +118,20 @@ nav ul li {
 }
 .btn-box{
     text-align: center;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
 }
+
 .jumbotron .btn.bianco{
-    margin-left: 7%;
+    /* margin-left: 7%; */
 }
 .jumbotron .btn.bianco i{
     margin-right: 10px;
 }
 
 .jumbotron .btn.nero{
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 /*debug*/
