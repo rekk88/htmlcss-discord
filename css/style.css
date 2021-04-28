@@ -156,7 +156,13 @@ nav ul li {
 
 
 
+/*test wave*/
 
+svg{
+    display: block;
+    background-color: green;
+
+}
 
 
 
@@ -177,9 +183,13 @@ nav ul li {
 
 .sezione2.debug{
     height: 400px;
-    background-color: green;
+    /* background-color: green; */
+    background-color: #0099ff; /*test svg*/
     border: 1px solid red;
 
+}
+#wave2{
+    /* background-color: #0099ff; */
 }
 
 .sezione3.debug{
