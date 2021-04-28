@@ -85,13 +85,9 @@ nav ul li {
 }
 .jumbotron .btn{
     display: inline-block;
-    /* text-align: center;
-    margin: 0px auto; */
+ 
     font-size: 20px;
 
-}
-.jumbotron .btn{
-    /* background-color: white; */
 }
 
 .jumbotron .testo{
@@ -101,11 +97,18 @@ nav ul li {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
+.jumbotron h1{
+    font-size: 45px;
+}
+.jumbotron p{
+    font-size: 21px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.testo p,h1{
+    color:white;
+}
 .btn-box{
-    /* width: max-content;
-    margin: 0 auto; */
-    /* position: relative; */
     text-align: center;
 }
 .jumbotron .btn.bianco{
