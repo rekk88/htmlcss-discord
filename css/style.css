@@ -30,12 +30,12 @@ header{
     padding-top: 10px;
     display: inline-block;
     vertical-align: middle;
-    width: 25%;
+    width: 19%;
 }
 .posizione{
     position: relative;
     float: right;
-    width: 75%;
+    width: 76%;
     height: 100px;
 }
 .menu{
@@ -48,7 +48,10 @@ header .btn{
     display: inline-block;
     position: absolute;
     right: 0px;
-    top: 37%;
+    top: 30%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 10px;
     
 }
 nav ul li {
@@ -71,7 +74,7 @@ header {
 .jumbotron.debug{
     height: 500px;
     background-color: brown;
-    
+
 }
 
 .sezione1.debug{
