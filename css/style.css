@@ -88,7 +88,7 @@ nav ul li {
 }
 .jumbotron{
     position: relative;
-    height: 580px;
+    min-height: 580px;
 
 }
 .jumbotron .btn{
@@ -112,7 +112,9 @@ nav ul li {
     font-size: 21px;
     margin-top: 25px;
     margin-bottom: 20px;
+    line-height: 1.4;
 }
+
 .testo p,h1{
     color:white;
 }
