@@ -3,29 +3,26 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+/*commons*/
 .clearfix::after{
     content: " ";
     display: table;
     clear: both;
 }
-.container{
+.box{
     width: 80%;
     margin: 0 auto;
 }
 
-.pagina{
+/*header*/
+header {
     background-color: #3161e0;
+    height: 90px;
+    font-size: 18px;
 }
 
 li{
     display: inline-block;
-}
-/*header*/
-header{
-   height: 90px;
-   font-size: 18px;
-   /* line-height: 100px; */
 }
 
 .logo{
@@ -63,6 +60,15 @@ nav ul li {
     color: white;
     
 }
+
+/*jumbooooo*/
+.jumbo-container{
+    /* background-color: teal; test sfondo */
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
 /*debug*/
 header {
     border: 1px solid black;
@@ -76,8 +82,8 @@ header {
 }
 
 .jumbotron.debug{
-    height: 500px;
-    background-color: brown;
+    height: 580px;
+    /* background-color: brown; */
 
 }
 
