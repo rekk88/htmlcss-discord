@@ -23,33 +23,26 @@ header{
    /* line-height: 100px; */
 }
 
-.header-container{
-    /* position:absolute; */
-    top: 20px;
-    /* right: 20px; */
-    width: 100%;
-}
-
 .logo{
-    /* float: left; */
-    /* position: ; */
+    height: 100px;
+    line-height: 100px;
+    padding-top: 10px;
     display: inline-block;
     vertical-align: middle;
 }
-nav{
-    /* float: left; */
-    display: inline-block;
+.posizione{
+    position: relative;
 }
-
+.menu{
+    display: inline-block;
+    position:absolute;
+    left: 0px;
+}
 header .btn{
-    /* float: left; */
-    background-color: white;
     display: inline-block;
-    
+    position: absolute;
+    right: 0px;
 }
-
-
-
 
 /*debug*/
 
