@@ -20,6 +20,7 @@ li{
 /*header*/
 header{
    height: 100px;
+   font-size: 18px;
    /* line-height: 100px; */
 }
 
@@ -29,26 +30,40 @@ header{
     padding-top: 10px;
     display: inline-block;
     vertical-align: middle;
+    width: 25%;
 }
 .posizione{
     position: relative;
+    float: right;
+    width: 75%;
+    height: 100px;
 }
 .menu{
     display: inline-block;
     position:absolute;
     left: 0px;
+    top: 37%;
 }
 header .btn{
     display: inline-block;
     position: absolute;
     right: 0px;
+    top: 37%;
+    
 }
-
+nav ul li {
+    margin: 0px 35px;
+    color: white;
+    
+}
 /*debug*/
-
-.container.debug{
+header {
     border: 1px solid black;
+
+}
+.pagina.debug{
     background-color: blue;
+
     /* height: 800px;  */
     /* width: 600px; */
 }
@@ -56,6 +71,7 @@ header .btn{
 .jumbotron.debug{
     height: 500px;
     background-color: brown;
+    
 }
 
 .sezione1.debug{
