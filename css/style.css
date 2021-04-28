@@ -71,7 +71,6 @@ header .btn{
     right: 0px;
     top: 30%;
     /* background-color: white; */
-    
 }
 nav ul li {
     margin: 0px 35px;
@@ -93,9 +92,7 @@ nav ul li {
 }
 .jumbotron .btn{
     display: inline-block;
- 
     font-size: 20px;
-
 }
 
 .jumbotron .testo{
@@ -118,35 +115,47 @@ nav ul li {
 .testo p,h1{
     color:white;
 }
-.btn-box{
-    text-align: center;
-    text-align: center;
-    width: 75%;
-    margin: 0 auto;
-}
 
-.jumbotron .btn.bianco{
-    /* margin-left: 7%; */
-}
-.jumbotron .btn.bianco i{
+
+/* spaziatura bottoni   */
+.btn-box{
+    /* text-align: center; */
+    width: 70%;
+    margin: 0 auto;
+}  
+
+/*spaziatura con position */
+/* .btn-box{
+    width: 100%;
+    position: relative;
+} */
+
+/*spaziatura tra freccia e testo*/
+.jumbotron .btn.bianco i{ 
     margin-right: 10px;
 }
 
+
+
+.jumbotron .btn.bianco{ 
+    /* position: absolute;
+    left: 0px; */
+    float: left;
+}
 .jumbotron .btn.nero{
     /* margin-left: 10%; */
+    /* position: absolute;
+    right: 0px; */
+    float: right;
 }
+
+
+
+
+
+
 
 /*debug*/
-/* header {
-    border: 1px solid black;
-
-} */
-.pagina.debug{
-    background-color: blue;
-
-    /* height: 800px;  */
-    /* width: 600px; */
-}
 
 .jumbotron.debug{
     border: 3px solid brown;
